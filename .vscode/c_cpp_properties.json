@@ -8,8 +8,8 @@
         {
             "name": "PlatformIO",
             "includePath": [
-                "c:/Users/Marius/Documents/Hiwi Arbeit/platform-raspberrypi/examples/arduino-ota/include",
-                "c:/Users/Marius/Documents/Hiwi Arbeit/platform-raspberrypi/examples/arduino-ota/src",
+                "c:/Users/Marius/Documents/Privat/W5100S-EVB-Pico-OTE/include",
+                "c:/Users/Marius/Documents/Privat/W5100S-EVB-Pico-OTE/src",
                 "C:/Users/Marius/.platformio/packages/framework-arduinopico/libraries/ArduinoOTA/src",
                 "C:/Users/Marius/.platformio/packages/framework-arduinopico/libraries/LEAmDNS/src",
                 "C:/Users/Marius/.platformio/packages/framework-arduinopico/libraries/WiFi/src",
@@ -87,6 +87,7 @@
                 "C:/Users/Marius/.platformio/packages/framework-arduinopico/pico-sdk/lib/btstack/platform/embedded",
                 "C:/Users/Marius/.platformio/packages/framework-arduinopico/include",
                 "C:/Users/Marius/.platformio/packages/framework-arduinopico/variants/wiznet_5100s_evb_pico",
+                "c:/Users/Marius/Documents/Privat/W5100S-EVB-Pico-OTE/.pio/libdeps/wiznet_5100s_evb_pico/Unity/src",
                 "C:/Users/Marius/.platformio/packages/framework-arduinopico/libraries/ADCInput/src",
                 "C:/Users/Marius/.platformio/packages/framework-arduinopico/libraries/AudioBufferManager/src",
                 "C:/Users/Marius/.platformio/packages/framework-arduinopico/libraries/BTstackLib/src",
@@ -133,8 +134,8 @@
             "browse": {
                 "limitSymbolsToIncludedHeaders": true,
                 "path": [
-                    "c:/Users/Marius/Documents/Hiwi Arbeit/platform-raspberrypi/examples/arduino-ota/include",
-                    "c:/Users/Marius/Documents/Hiwi Arbeit/platform-raspberrypi/examples/arduino-ota/src",
+                    "c:/Users/Marius/Documents/Privat/W5100S-EVB-Pico-OTE/include",
+                    "c:/Users/Marius/Documents/Privat/W5100S-EVB-Pico-OTE/src",
                     "C:/Users/Marius/.platformio/packages/framework-arduinopico/libraries/ArduinoOTA/src",
                     "C:/Users/Marius/.platformio/packages/framework-arduinopico/libraries/LEAmDNS/src",
                     "C:/Users/Marius/.platformio/packages/framework-arduinopico/libraries/WiFi/src",
@@ -212,6 +213,7 @@
                     "C:/Users/Marius/.platformio/packages/framework-arduinopico/pico-sdk/lib/btstack/platform/embedded",
                     "C:/Users/Marius/.platformio/packages/framework-arduinopico/include",
                     "C:/Users/Marius/.platformio/packages/framework-arduinopico/variants/wiznet_5100s_evb_pico",
+                    "c:/Users/Marius/Documents/Privat/W5100S-EVB-Pico-OTE/.pio/libdeps/wiznet_5100s_evb_pico/Unity/src",
                     "C:/Users/Marius/.platformio/packages/framework-arduinopico/libraries/ADCInput/src",
                     "C:/Users/Marius/.platformio/packages/framework-arduinopico/libraries/AudioBufferManager/src",
                     "C:/Users/Marius/.platformio/packages/framework-arduinopico/libraries/BTstackLib/src",
