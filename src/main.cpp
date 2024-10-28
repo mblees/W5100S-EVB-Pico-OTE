@@ -1,9 +1,10 @@
 #include <ESP8266WiFi.h>
 #include <ESP8266mDNS.h>
 #include <WiFiUdp.h>
-#include "Ethernet/Ethernet.h"
 #include <ArduinoOTA.h>
 #include "Updater_Signing.h"
+
+#include "Ethernet/Ethernet.h"
 #include "mac_gen.h"
 
 #ifndef STASSID
@@ -19,7 +20,7 @@ static uint8_t uniqueID[8];
 
 void setup()
 {
-  Serial.begin(115200);
+  Serial.begin(9800);
   while (!Serial)
     ; // Wait for Serial Monitor to be connected
   Serial.println("Booting");
@@ -99,8 +100,6 @@ void setup()
     } });
   ArduinoOTA.begin(0);
   Serial.println("Ready");
-  Serial.print("IP address: ");
-  Serial.println(WiFi.localIP());
 }
 
 void loop()
