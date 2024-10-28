@@ -22,8 +22,8 @@ static uint8_t uniqueID[8];
 void setup()
 {
   Serial.begin(9800);
-  while (!Serial)
-    ; // Wait for Serial Monitor to be connected
+  //while (!Serial)
+  //  ; // Wait for Serial Monitor to be connected
   Serial.println("Booting");
 
   Ethernet.init(17); // W5100S-EVB-Pico
